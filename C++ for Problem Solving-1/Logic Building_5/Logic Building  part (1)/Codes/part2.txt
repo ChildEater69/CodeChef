@@ -1,0 +1,255 @@
+
+
+// Once the observations / logic is clear, click on 'Next' to continue.
+
+
+
+
+
+
+Problem (Make Avg) - Solve sub-components
+Prev problem
+Given the integers 
+ 
+A and 
+ 
+C - how do we find their average - the integer 
+ 
+B?
+Code this sub-problem in the IDE to continue.
+
+Did you like the problem?
+2 users found this helpful
+
+
+
+
+
+
+// How to find the average of 2 numbers? 
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+
+ int A = 15;
+ int C = 19;
+ int B = (A + C)/2;
+ cout<<B<<endl;
+
+ A = 16;
+ C = 18;
+ B = (A + C)/2;
+ cout<<B<<endl;
+
+return 0;
+}
+
+
+
+
+
+
+Problem (Make Avg) - Solve sub-components
+Prev problem
+Next problem
+How do we check the following?
+
+Are both 
+ 
+A and 
+ 
+C odd?
+Are both 
+ 
+A and 
+ 
+C even?
+Is 
+ 
+A odd and 
+ 
+C even or vice versa?
+Code this sub-problem in the IDE to continue.
+
+
+
+
+
+
+
+//  How to check if A and C are both odd or even?
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int A = 15;
+ int C = 17;
+ if (A%2 == 0 && C%2 == 0)
+    {
+      cout<<"Both A and C are even"<<endl;
+    }
+ else if ( A%2!= 0 and C%2 != 0)
+    {
+      cout<<"Both A and C are odd"<<endl;
+    }
+else
+    {
+      cout<<"A is odd and C is even or vice versa"<<endl;
+    }
+    
+ A = 15;
+ C = 18;
+ if ( A%2== 0 && C%2 == 0)
+    {
+      cout<<"Both A and C are even"<<endl;
+    }
+ else if ( A%2 != 0 && C%2 != 0)
+    {
+      cout<<"Both A and C are odd"<<endl;
+    }
+ else
+    {
+      cout<<"A is odd and C is even or vice versa"<<endl;
+    }
+
+return 0;
+}
+
+
+
+
+
+Problem (Make Avg) - Solve the complete problem
+Prev problem
+Next Module
+You are given 2 integers - 
+ 
+A and 
+ 
+C.
+You need to find if there exists any 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+integer 
+ 
+B which meets the following condition
+
+ 
+B must be an integer
+ 
+B is the average of 
+ 
+A and 
+ 
+C.
+Input Format
+The first line of input will contain a single integer 
+ 
+T, denoting the number of test cases.
+Each test case consists of two space-separated integers 
+ 
+A and 
+ 
+C, the given integers.
+Output Format
+For each test case, output 
+−
+1
+−1 if there exists no integer 
+ 
+B which is the average of 
+ 
+A and 
+ 
+C. Else, output the value of 
+ 
+B.
+
+Sample 1:
+Input
+Output
+3
+3 5
+6 6
+2 7
+4
+6
+-1
+Explanation:
+Test case 
+1
+1: Considering 
+ 
+=
+4
+B=4, 
+ 
+B is the average of 
+3
+3 and 
+5
+5.
+Test case 
+2
+2: Considering 
+ 
+=
+6
+B=6, 
+ 
+B is the average of 
+6
+6 and 
+6
+6.
+Test case 
+3
+3: There exists no integer 
+ 
+B such that 
+ 
+B can be the average of 
+2
+2 and 
+7
+7.
+
+
+
+
+
+// Update the program below to solve the problem
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+  int t;
+  cin>>t;
+  while(t--)
+  {
+    int A,B=0, C;
+    cin>>A>>C;
+    B=(A+C)/2;
+    if((A%2==0 && C%2==0)||(A%2!=0 && C%2!=0)){
+        cout<<B<<endl;
+    }
+    else{
+        cout<<-1<<endl;
+    }
+    
+   }
+ return 0;
+}
+
