@@ -1,1 +1,0 @@
-Click on **Next** in to proceed.
