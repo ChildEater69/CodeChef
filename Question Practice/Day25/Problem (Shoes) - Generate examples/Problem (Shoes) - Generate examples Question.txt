@@ -1,0 +1,33 @@
+Problem (Shoes) - Generate examples
+Prev problem
+Next problem
+Now that we have understood the problem statement, let us write down a few more sample cases or examples.
+Review the sample input / output given in the table below.
+
+What would the expected output be for the following values of 
+ 
+N and 
+ 
+M?
+Generate the output to these examples in the IDE.
+
+10 10
+5 10
+15 10
+Sample 1:
+Input
+Output
+6 sample inputs
+1 4
+2 4
+3 4
+4 4
+5 4
+6 4
+6 expected outputs
+1
+2
+3
+4
+6
+8
