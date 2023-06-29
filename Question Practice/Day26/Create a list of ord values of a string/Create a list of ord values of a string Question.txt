@@ -1,0 +1,52 @@
+Create a list of ord values of a string
+Prev module
+Next problem
+You are given a string 
+ 
+S. 
+ 
+S can contain any alphanumeric character [0 - 9], [a - z] and [A to Z].
+Create a new array 
+ 
+A, as follows
+
+For each character of string 
+ 
+S - append its 
+ 
+ 
+ 
+ord value or 
+ 
+ 
+ 
+ 
+ 
+ASCII value to the list 
+ 
+A
+You need to generate and output the values in the array 
+ 
+A.
+
+Input Format
+The first line will contain 
+ 
+t - the number of test cases. Then the test cases follow
+Each line of the test case consists of a single line of input - the string 
+ 
+S
+Output Format
+Output the list 
+ 
+A
+Sample 1
+Input
+Output
+3
+abc
+MXZ
+123
+97 98 99
+77 88 90
+49 50 51

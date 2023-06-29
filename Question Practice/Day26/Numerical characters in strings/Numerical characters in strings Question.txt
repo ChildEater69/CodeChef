@@ -1,0 +1,51 @@
+Numerical characters in strings
+Prev problem
+Next Module
+For some programming problems, it is beneficial to treat numbers as strings.
+
+You are given an integer 
+ 
+A.
+Can the digits of 
+ 
+A be rearranged such that the resulting number is divisible by 
+5
+5
+
+Input Format
+The first line will contain 
+ 
+t - the number of test cases. Then the test cases follow
+Each line of the test case consists of a single line of input - the number 
+ 
+A
+Output Format
+For each test case output 'YES' if the number 
+ 
+A can be rearranged such that it becomes divisible by 
+5
+5, and 'NO' otherwise
+Sample 1
+Input
+Output
+3
+12345
+11011
+12346
+Yes
+Yes
+No
+Explanation
+Test case 1 
+12345
+12345 is already divisible by 5 - hence output is YES
+
+Test case 2 
+11011
+11011 can be rearranged as 
+11110
+11110 which is divisible by 5 - hence output is YES
+
+Test case 3 No arrangement of 
+12346
+12346 makes it divisible by 5. Hence output is NO
