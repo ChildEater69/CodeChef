@@ -1,0 +1,251 @@
+Practice problem - Wordle
+Prev problem
+Next problem
+Chef invented a modified wordle.
+There is a hidden word 
+ 
+S and a guess word 
+ 
+T, both of length 
+5
+5.
+Chef defines a string 
+ 
+M to determine the correctness of the guess word. For the 
+ 
+ 
+ℎ
+i 
+th
+  index
+
+If the guess at the 
+ 
+ 
+ℎ
+i 
+th
+  index is correct, the 
+ 
+ 
+ℎ
+i 
+th
+  character of 
+ 
+M is 
+G
+G.
+If the guess at the 
+ 
+ 
+ℎ
+i 
+th
+  index is wrong, the 
+ 
+ 
+ℎ
+i 
+th
+  character of 
+ 
+M is 
+B
+B.
+Given the hidden word 
+ 
+S and guess 
+ 
+T, determine string 
+ 
+M.
+
+Input Format
+First line will contain 
+ 
+T, number of test cases. Then the test cases follow.
+Each test case contains of two lines of input.
+First line contains the string 
+ 
+S - the hidden word.
+Second line contains the string 
+ 
+T - the guess word.
+Output Format
+For each test case, print the value of string 
+ 
+M.
+
+Sample 1
+Input
+Output
+3
+ABCDE
+EDCBA
+ROUND
+RINGS
+START
+STUNT
+BBGBB
+GBBBB
+GGBBG
+Explanation
+Test Case 
+1
+1 Given string 
+ 
+=
+ABCDE
+S=ABCDE and 
+ 
+=
+EDCBA
+T=EDCBA. The string 
+ 
+M is
+
+Comparing the first indices, 
+A
+≠
+E
+A=E, thus, 
+ 
+[
+1
+]
+=
+B
+M[1]=B.
+Comparing the second indices, 
+B
+≠
+D
+B=D, thus, 
+ 
+[
+2
+]
+=
+B
+M[2]=B.
+Comparing the third indices, 
+C
+=
+C
+C=C, thus, 
+ 
+[
+3
+]
+=
+G
+M[3]=G.
+Comparing the fourth indices, 
+D
+≠
+B
+D=B, thus, 
+ 
+[
+4
+]
+=
+B
+M[4]=B.
+Comparing the fifth indices, 
+E
+≠
+A
+E=A, thus, 
+ 
+[
+5
+]
+=
+B
+M[5]=B.
+Thus, 
+ 
+=
+BBGBB
+M=BBGBB.
+Test Case 
+2
+2 Given string 
+ 
+=
+ROUND
+S=ROUND and 
+ 
+=
+RINGS
+T=RINGS. The string 
+ 
+M is
+
+Comparing the first indices, 
+R
+=
+R
+R=R, thus, 
+ 
+[
+1
+]
+=
+G
+M[1]=G.
+Comparing the second indices, 
+O
+≠
+I
+O=I, thus, 
+ 
+[
+2
+]
+=
+B
+M[2]=B.
+Comparing the third indices, 
+U
+≠
+N
+U=N, thus, 
+ 
+[
+3
+]
+=
+B
+M[3]=B.
+Comparing the fourth indices, 
+N
+≠
+G
+N=G, thus, 
+ 
+[
+4
+]
+=
+B
+M[4]=B.
+Comparing the fifth indices, 
+D
+≠
+S
+D=S, thus, 
+ 
+[
+5
+]
+=
+B
+M[5]=B.
+Thus, 
+ 
+=
+GBBBB
+M=GBBBB.

@@ -1,0 +1,66 @@
+Numerical characters in strings
+Prev problem
+Next problem
+Recall that for some programming problems, it is beneficial to treat numbers as strings.
+
+You are given 2 integers 
+ 
+A and 
+ 
+B - they contain the same number of digits.
+You need to determine if these numbers are reverse of each other.
+
+Input Format
+The first line will contain 
+ 
+t - the number of test cases. Then the test cases follow
+Each line of the test case consists of a two line of input
+the number 
+ 
+A on the 
+1
+ 
+ 
+1 
+st
+  line and
+the number 
+ 
+B on the 
+2
+ 
+ 
+2 
+nd
+  line
+Output Format
+Each test case output 'YES' if the numbers are reverses of each other and 'NO' otherwise
+Sample 1:
+Input
+Output
+2
+1005
+5001
+12345
+53321
+YES
+NO
+Explanation:
+Test case 1: 
+5001
+5001 when reversed gives us 
+1005
+1005. Hence we output 
+ 
+ 
+ 
+YES
+
+Test case 2: 
+12345
+12345 when reversed does NOT equal 
+53321
+53321. Hence we output 
+ 
+ 
+NO
