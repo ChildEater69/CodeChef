@@ -1,0 +1,44 @@
+Find the gcd and LCM of 2 integers
+Prev module
+You are given two integer 
+ 
+A and 
+ 
+B.
+You need to compute and output the Greatest common divisor and Least common multiple of these 2 numbers and store them in the variables 
+ 
+ 
+ 
+gcd and 
+ 
+ 
+ 
+lcm
+
+Input Format
+The first line of input will contain a single integer 
+ 
+T, denoting the number of test cases.
+Each test case consists of a single line of input - the integer 
+ 
+A and 
+ 
+B.
+Output Format
+For each test case, output the 
+ 
+ 
+ 
+gcd and 
+ 
+ 
+ 
+lcm on one line
+Sample 1:
+Input
+Output
+2
+4 9
+24 32
+1 36
+8 96

@@ -1,0 +1,139 @@
+Debug this code - Divisible by 3
+Prev problem
+You have two non-negative integers 
+ 
+A and 
+ 
+B.
+In one operation, you can do either of the following:
+
+ 
+:
+=
+∣
+ 
+−
+ 
+∣
+A:=∣A−B∣ (ie. change 
+ 
+A to 
+∣
+ 
+−
+ 
+∣
+∣A−B∣)
+ 
+:
+=
+∣
+ 
+−
+ 
+∣
+B:=∣A−B∣ (ie. change 
+ 
+B to 
+∣
+ 
+−
+ 
+∣
+∣A−B∣)
+Note that 
+∣
+ 
+∣
+∣X∣ denotes absolute value of 
+ 
+X. For example 
+∣
+−
+7
+∣
+=
+7
+∣−7∣=7 and 
+∣
+4
+∣
+=
+4
+∣4∣=4.
+Find the minimum number of operations after which at least one integer out of 
+ 
+A and 
+ 
+B becomes divisible by 
+3
+3.
+
+Input Format
+The first line of input contains a single integer 
+ 
+T, denoting the number of test cases. The description of 
+ 
+T test cases follows.
+The only line of each test case contains two integers 
+ 
+A and 
+ 
+B.
+Output Format
+For each test case, output in a single line the minimum number of operations after which at least one integer out of 
+ 
+A and 
+ 
+B becomes divisible by 
+3
+3.
+
+Sample 1:
+Input
+Output
+2
+0 343
+1 1
+0
+1
+Explanation:
+Test case 
+1
+1: 
+ 
+=
+0
+A=0 is already divisible by 
+3
+3.
+
+Test case 
+2
+2: In the only operation, Stack can change 
+ 
+=
+1
+A=1 to 
+ 
+=
+∣
+ 
+−
+ 
+∣
+=
+∣
+1
+−
+1
+∣
+=
+0
+A=∣A−B∣=∣1−1∣=0. Now 
+ 
+=
+0
+A=0 is divisible by 
+3
+3.

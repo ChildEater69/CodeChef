@@ -1,0 +1,30 @@
+Useful math libraries
+Prev problem
+Next problem
+While we took a fundamental approach to solving the previous problems, there are libraries in C++ which can help us achieve the same result.
+Some useful math libraries are covered here - these will be helpful for commonly found programming problems.
+
+sqrt(n)
+Returns the square root of a number 
+ 
+n
+__gcd(a,b)
+Returns the greatest common divisor of two integers 
+ 
+a and 
+ 
+b
+floor(n)
+Rounds a number 
+ 
+n down to the nearest integer
+ceil(n)
+Rounds a number 
+ 
+n up to the nearest integer
+pow(x,y)
+Returns the value of 
+ 
+x to the power of 
+ 
+y
