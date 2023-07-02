@@ -1,0 +1,49 @@
+Puzzle: Code Completion
+Rated
+
+
+Abandon
+07Min
+58Sec
+You go to a shop and have 
+ 
+A dollars.
+You want to buy some medicines and each medicine costs 
+ 
+B dollars.
+How many medicines will you be able to buy?
+
+Input Format
+First line will contain 
+ 
+T, the number of test cases. Then the test cases follow.
+Each test case contains a single line of input, two integers 
+ 
+,
+ 
+A,B as described in the statement above.
+Output Format
+For each test case, output in a separate line the maximum number of medicines that can be purchased.
+
+Constraints
+1
+≤
+ 
+≤
+1000
+1≤T≤1000
+1
+≤
+ 
+,
+ 
+≤
+100
+1≤A,B≤100
+Sample 1:
+Input
+Output
+1
+18 6
+3
+Did you like the Problem?

@@ -1,0 +1,80 @@
+Puzzle: Debugging
+Rated
+
+
+Abandon
+08Min
+16Sec
+We are given a binary string 
+ 
+A of length 
+ 
+N.
+ 
+N is necessarily even.
+We need to do the following operation on the string as we traverse it from left to right.
+
+00 is converted to A
+01 is converted to T
+10 is converted to C
+11 is converted to G
+Print the output once the above operations have been carried out on the whole string.
+
+Input Format
+First line will contain 
+ 
+T, number of test cases. Then the test cases follow.
+Each test case contains two lines of input.
+First line contains a single integer 
+ 
+N, the length the original string.
+Second line contains a binary string 
+ 
+A of length 
+ 
+N.
+Output Format
+For each test case, output in a single line the new sequence once the conversion has been carried out.
+
+Note: Output is case-sensitive.
+
+Constraints
+1
+≤
+ 
+≤
+100
+1≤T≤100
+2
+≤
+ 
+≤
+1
+0
+3
+2≤N≤10 
+3
+ 
+ 
+N is even.
+Sum of 
+ 
+N over all test cases is at most 
+1
+0
+3
+10 
+3
+ .
+ 
+A contains only characters 0 and 1.
+Sample 1:
+Input
+Output
+2
+2
+10
+6
+110010
+C
+GAC
