@@ -1,0 +1,127 @@
+Puzzle: Debugging
+Rated
+
+
+Abandon
+05Min
+58Sec
+You are given an array 
+ 
+P of length 
+ 
+N.
+You can perform the following operation on 
+ 
+P multiple times (possibly zero) for multiple options of 
+ 
+i
+
+Update 
+ 
+ 
+P 
+i
+​
+  as 
+ 
+ 
+=
+ 
+ 
+P 
+i
+​
+ =P 
+j
+​
+  for any two distinct indices 
+ 
+,
+ 
+i,j 
+(
+1
+≤
+ 
+,
+ 
+≤
+ 
+,
+ 
+≠
+ 
+)
+(1≤i,j≤N,i=j)
+You want to make all elements of array 
+ 
+P equal. Output the minimum count of operations in which this can be achieved.
+
+Input Format
+First line will contain 
+ 
+T, number of test cases. Then the test cases follow.
+First line of each test case consists of an integer 
+ 
+N
+Second line of each test case consists of 
+ 
+N space-separated integers 
+ 
+1
+,
+ 
+2
+,
+…
+,
+ 
+ 
+P 
+1
+​
+ ,P 
+2
+​
+ ,…,P 
+N
+​
+ 
+Output Format
+For each test case, output the minimum count of operations in which all elements of 
+ 
+P will become equal
+
+Constraints
+1
+≤
+ 
+≤
+100
+1≤T≤100
+2
+≤
+ 
+≤
+1000
+2≤N≤1000
+1
+≤
+ 
+ 
+≤
+1000
+1≤P 
+i
+​
+ ≤1000
+Sample 1:
+Input
+Output
+2
+3
+1 1 1
+4
+1 2 3 4
+0
+3
